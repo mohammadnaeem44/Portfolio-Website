@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Portfol<span>io</span></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="subscribe-btn">Subscribe</button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">Hello, my name is</h2>
+            <h1 class="title">Mohammad Naeem <span>Here</span></h1>
+            <p class="description">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            <div class="cta">
+                <input type="email" placeholder="Enter Your Email">
+                <button class="lets-start">Let's Start</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <h3>Developer & Designer</h3>
+                <p>I am a passionate web developer with expertise in creating responsive and user-friendly websites. I specialize in front-end development and have a keen eye for design. My goal is to build websites that not only look great but also provide an excellent user experience.</p>
+                <button class="lets-talk">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>We create fast, responsive websites that work across all devices, ensuring a smooth experience for every user.</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Our user-centric designs provide a seamless, intuitive interface that enhances user engagement and satisfaction.</p>
+                <button class="read-more">Read More</button>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>SEO Optimization</h3>
+                <p>Our SEO services ensure that your website ranks high on search engines, bringing more traffic and visibility to your business.</p>
+                <button class="read-more">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="85"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="75"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">React</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="80"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Your Name</p>
+        <p>For more HTML, CSS, and coding tutorials, subscribe to my channel!</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">Copyright © <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
